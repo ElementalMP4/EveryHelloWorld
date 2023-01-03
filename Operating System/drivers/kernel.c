@@ -17,4 +17,8 @@ void k_main()
 	hide_cursor();
 
 	hello_world();
+
+    while (true) {
+        halt();
+    }
 }
