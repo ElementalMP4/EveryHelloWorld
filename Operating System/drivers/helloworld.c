@@ -1,5 +1,5 @@
 #include <starlib.h>
-#inclue "helloworld.h"
+#include "helloworld.h"
 
 void hello_world() {
     print("Hello World!");
