@@ -1,3 +1,5 @@
-main( ) {
-  putchar('Hello World!*n');
+main()
+{
+    putstr("Hello world!*n");
+    return(0);
 }
