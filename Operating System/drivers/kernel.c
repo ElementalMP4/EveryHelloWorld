@@ -1,4 +1,3 @@
-#include <kernel.h>
 #include <starlib.h>
 #include <display.h>
 #include <interrupts.h>
