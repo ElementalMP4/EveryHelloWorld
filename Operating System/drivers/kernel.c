@@ -3,6 +3,7 @@
 #include <interrupts.h>
 #include <pic.h>
 #include <pit.h>
+#include "helloworld.h"
 
 void k_main()
 {
@@ -15,5 +16,5 @@ void k_main()
 	clear_screen();
 	hide_cursor();
 
-	println("Hello World!");
+	hello_world();
 }
