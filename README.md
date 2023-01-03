@@ -12,3 +12,4 @@ If you would like to make a PR with a language, please make sure it follows thes
 2) It must not be an esoteric language
 3) For the love of god use 4/tab spacing
 4) It doesn't necessarily need to be a programming language, but keep it programming related
+5) Try and avoid duplicates (EG: Delphi, FPC, Pascal)
