@@ -2,6 +2,7 @@
 #include <display.h>
 #include <pit.h>
 
+const char TBL[] = "0123456789ABCDEF";
 static unsigned int next = 1;
 
 void *mem_cpy(char *src, char *dest, int num_of_bytes)
