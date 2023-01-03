@@ -1,5 +1,4 @@
 #include <starlib.h>
-#include <keyboard_map.h>
 #include <display.h>
 #include <pit.h>
 #include <kernel.h>

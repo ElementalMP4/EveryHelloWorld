@@ -29,7 +29,7 @@ kernel/kernel.bin: boot/k_entry.o ${OBJ}
 
 # all .c files to object files
 %.o : %.c ${HEADERS}
-	gcc -I ${KERNEL} -I ${DRIVERS} -m32 -ffreestanding -c $< -o $@ -fno-PIE -fno-PIC
+	gcc -std=c99 -I ${KERNEL} -I ${DRIVERS} -m32 -ffreestanding -c $< -o $@ -fno-PIE -fno-PIC
 
 boot/k_entry.o: boot/k_entry.asm
 	nasm $< -f elf -o $@
