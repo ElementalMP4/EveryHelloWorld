@@ -1,7 +1,6 @@
 #include <starlib.h>
 #include <display.h>
 #include <pit.h>
-#include <kernel.h>
 
 static unsigned int next = 1;
 
