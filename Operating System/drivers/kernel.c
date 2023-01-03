@@ -4,8 +4,6 @@
 #include <pic.h>
 #include <pit.h>
 
-static INPUT_HNDLR input_f = default_input;
-
 void k_main()
 {
 	// initiate interrupt descriptor table and drivers
